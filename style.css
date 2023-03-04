@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(
+    rgb(148, 6, 5),  
+    rgb(35, 17, 17)        
+    );
+    height: 200vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none
+
+}
+
+#below-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3em 0em 1em 0em;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    font-size: 1.5em;
+}
+.button-navigate {
+    font-size: 3em;
+}
+.button-biggest {
+    font-size: 4em;
+}
+
+#foto {
+    width: 400px;
+}
+
+#play-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em 0em 4em 0em;
+}
+
+
+#song-name {
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+
+.ligth-color {
+   color: rgb(202, 174, 173);
+}
+
+#barra {
+    background-color: rgb(202, 174, 173);
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 1.5em;
+}
+/* BARRA DE PROGRESSO */
+
+#current-progress {
+    background-color: white;
+    height: inherit;
+    width: 50%;
+    border-radius: inherit;
+
+}
